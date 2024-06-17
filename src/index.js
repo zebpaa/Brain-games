@@ -23,6 +23,7 @@ export default (description, getQuestionAndAnswer) => {
         `'${answer}' is wrong answer ;(. Correct answer was '${currentAnswer}'.`
       );
       console.log(`Let's try again, ${name}!`);
+      return 0;
     }
   }
   console.log(`Congratulations, ${name}!`);
