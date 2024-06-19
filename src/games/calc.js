@@ -6,8 +6,8 @@ const randomNum = () => Math.round(Math.random() * 100);
 
 const randomOperator = () => {
   const operators = ["+", "-", "*"];
-  let index = Math.round(Math.random() * operators.length);
-  return operators[index - 1];
+  let index = Math.floor(Math.random() * operators.length);
+  return operators[index];
 };
 
 const getQuestionAndAnswer = () => {
