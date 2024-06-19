@@ -2,12 +2,12 @@
   "name": "@hexlet/code",
   "type": "module",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/zebpaa/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/zebpaa/frontend-project-44/actions)",
+  "description": "1st educational project on Hexlet: 'Mind Games'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Aleksei Skvortsov",
   "license": "ISC",
   "bin": {
     "brain-games": "bin/brain-games.js",
