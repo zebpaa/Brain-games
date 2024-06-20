@@ -1,8 +1,7 @@
-import playGame from "../index.js";
-import getRandomInteger from "../util.js";
+import playGame from '../index';
+import getRandomInteger from '../util';
 
-const description =
-  'Answer "yes" if given number is prime. Otherwise answer "no".';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
   let flag = 0;
@@ -20,7 +19,7 @@ const isPrime = (num) => {
 const getQuestionAndAnswer = () => {
   const random = getRandomInteger(2, 9);
   const question = random;
-  const currentAnswer = isPrime(random) ? "yes" : "no";
+  const currentAnswer = isPrime(random) ? 'yes' : 'no';
 
   return [question, currentAnswer];
 };

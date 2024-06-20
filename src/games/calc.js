@@ -1,11 +1,11 @@
-import playGame from "../index.js";
-import getRandomInteger from "../util.js";
+import playGame from '../index';
+import getRandomInteger from '../util';
 
-const description = "What is the result of the expression?";
+const description = 'What is the result of the expression?';
 
 const getRandomOperator = () => {
-  const operators = ["+", "-", "*"];
-  let index = getRandomInteger(0, operators.length - 1);
+  const operators = ['+', '-', '*'];
+  const index = getRandomInteger(0, operators.length - 1);
   return operators[index];
 };
 
@@ -17,9 +17,9 @@ const getQuestionAndAnswer = () => {
   const question = `${random1} ${operator} ${random2}`;
   let currentAnswer;
 
-  if (operator === "-") {
+  if (operator === '-') {
     currentAnswer = String(random1 - random2);
-  } else if (operator === "+") {
+  } else if (operator === '+') {
     currentAnswer = String(random1 + random2);
   } else {
     currentAnswer = String(random1 * random2);

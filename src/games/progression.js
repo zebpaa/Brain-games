@@ -1,7 +1,7 @@
-import playGame from "../index.js";
-import getRandomInteger from "../util.js";
+import playGame from '../index';
+import getRandomInteger from '../util';
 
-const description = "What number is missing in the progression?";
+const description = 'What number is missing in the progression?';
 
 const getProgressionArray = () => {
   const progressionArray = [];
@@ -20,13 +20,13 @@ const getProgressionArray = () => {
 const getIndexOfHiddenNumber = () => getRandomInteger(0, getProgressionArray().length - 1);
 
 const getQuestionAndAnswer = () => {
-  let progression = getProgressionArray();
- 
+  const progression = getProgressionArray();
+
   const IndexOfHiddenNumber = getIndexOfHiddenNumber();
   const hiddenNumber = progression[IndexOfHiddenNumber];
-  progression[IndexOfHiddenNumber] = "..";
+  progression[IndexOfHiddenNumber] = '..';
 
-  let question = progression.toString().split(',').join(' ');
+  const question = progression.toString().split(',').join(' ');
 
   const currentAnswer = String(hiddenNumber);
 
