@@ -1,18 +1,17 @@
-import game from "../index.js";
+import playGame from "../index.js";
+import getRandomInteger from "../util.js";
 
-const description = "Answer 'yes' if number even otherwise answer 'no'";
+const description = "Answer 'yes' if the number is even, otherwise answer 'no'.";
 
 const isEven = (num) => num % 2 === 0;
 
-const randomNum = () => Math.round(Math.random() * 100);
-
 const getQuestionAndAnswer = () => {
-  const question = randomNum();
+  const question = getRandomInteger(1, 9);
   const currentAnswer = isEven(question) ? "yes" : "no";
 
   return [question, currentAnswer];
 };
 
 export default () => {
-  game(description, getQuestionAndAnswer);
+  playGame(description, getQuestionAndAnswer);
 };
