@@ -2,7 +2,7 @@ import playGame from "../index.js";
 import getRandomInteger from "../util.js";
 
 const description =
-  "Answer 'yes' if given number is prime. Otherwise answer 'no'.";
+  'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
   let flag = 0;
