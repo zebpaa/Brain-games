@@ -1,19 +1,18 @@
-import game from "../index.js";
+import playGame from "../index.js";
+import getRandomInteger from "../util.js";
 
 const description = "What is the result of the expression?";
 
-const randomNum = () => Math.round(Math.random() * 100);
-
-const randomOperator = () => {
+const getRandomOperator = () => {
   const operators = ["+", "-", "*"];
   let index = Math.floor(Math.random() * operators.length);
   return operators[index];
 };
 
 const getQuestionAndAnswer = () => {
-  const random1 = randomNum();
-  const random2 = randomNum();
-  const operator = randomOperator();
+  const random1 = getRandomInteger(1, 9);
+  const random2 = getRandomInteger(1, 9);
+  const operator = getRandomOperator();
 
   const question = `${random1} ${operator} ${random2}`;
   let currentAnswer;
@@ -30,5 +29,5 @@ const getQuestionAndAnswer = () => {
 };
 
 export default () => {
-  game(description, getQuestionAndAnswer);
+  playGame(description, getQuestionAndAnswer);
 };
