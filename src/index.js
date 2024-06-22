@@ -19,12 +19,11 @@ export default (description, getQuestionAndAnswer) => {
     if (answer === currentAnswer) {
       console.log('Correct!');
     } else {
-      console.log(
-        `'${answer}' is wrong answer ;(. Correct answer was '${currentAnswer}'.`,
-      );
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${currentAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
       return 0;
     }
   }
   console.log(`Congratulations, ${name}!`);
+  return 1;
 };
