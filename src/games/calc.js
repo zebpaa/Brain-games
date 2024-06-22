@@ -1,5 +1,5 @@
-import playGame from '../index';
-import getRandomInteger from '../util';
+import playGame from '../index.js';
+import getRandomInteger from '../util.js';
 
 const description = 'What is the result of the expression?';
 
