@@ -1,6 +1,6 @@
 <h1 style="text-align: center;">1-ый учебный проект на Хекслет: 'Игры разума'</h1>
 
-<a href="https://ru.hexlet.io/programs/frontend/projects/44">Ссылка на проект</a>
+<a href="https://ru.hexlet.io/programs/frontend/projects/44 target='_blank'">Ссылка на проект</a>
 
 ## Описание
 
@@ -28,7 +28,7 @@ $ npm install @hexlet/code
 
 ## Список игр:
 
-### 1. <a href="https://asciinema.org/a/Fj5gEV39uysKHdmoAkOqfck7I">Игра: "Проверка на чётность".</a>
+### 1. <a href="https://asciinema.org/a/Fj5gEV39uysKHdmoAkOqfck7I target='_blank'">Игра: "Проверка на чётность".</a>
 
 Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
 
@@ -38,7 +38,7 @@ $ npm install @hexlet/code
 $ brain-even
 ```
 
-### 2. <a href="https://asciinema.org/a/FIs4NOpC9RDLL8PgB6m31T2L3">Игра: "Калькулятор".</a>
+### 2. <a href="https://asciinema.org/a/FIs4NOpC9RDLL8PgB6m31T2L3 target='_blank'">Игра: "Калькулятор".</a>
 
 Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
 
@@ -46,7 +46,7 @@ $ brain-even
 $ brain-calc
 ```
 
-### 3. <a href="https://asciinema.org/a/D1rUCsS9dyYfbQ4SDUWicfRNW">Игра "НОД".</a>
+### 3. <a href="https://asciinema.org/a/D1rUCsS9dyYfbQ4SDUWicfRNW target='_blank'">Игра "НОД".</a>
 
 Пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
@@ -54,7 +54,7 @@ $ brain-calc
 $ brain-gcd
 ```
 
-### 4. <a href="https://asciinema.org/a/cpjKTH3OXbzKKlpgJInqhpNeI">Игра "Арифметическая прогрессия".</a>
+### 4. <a href="https://asciinema.org/a/cpjKTH3OXbzKKlpgJInqhpNeI target='_blank'">Игра "Арифметическая прогрессия".</a>
 
 Показываем игроку ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
 
@@ -62,7 +62,7 @@ $ brain-gcd
 $ brain-progression
 ```
 
-### 5. <a href="https://asciinema.org/a/0THMckZFd0PGa5s9tx1RN3pDM">Игра "Простое ли число?"</a>
+### 5. <a href="https://asciinema.org/a/0THMckZFd0PGa5s9tx1RN3pDM target='_blank'">Игра "Простое ли число?"</a>
 
 Пользователю показывается случайное число. И ему нужно ответить yes, если число простое, в противном случае — no.
 
