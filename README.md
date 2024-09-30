@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">1-ый учебный проект на Хекслет: 'Игры разума'</h1>
+<h1 style="text-align: center;">'Игры разума'</h1>
 
 <a href="https://ru.hexlet.io/programs/frontend/projects/44">Ссылка на проект</a>
 
